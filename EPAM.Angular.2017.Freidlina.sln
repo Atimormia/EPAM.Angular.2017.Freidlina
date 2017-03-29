@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoGallery.WebUI", "PhotoGallery.WebUI\PhotoGallery.WebUI.csproj", "{1C577DFB-4457-44D6-835F-EBB1501383A0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoGallery.DB", "PhotoGallery.DB\PhotoGallery.DB.csproj", "{BFBFB25E-53B6-42AF-8C73-7135B22E4D72}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoGallery", "PhotoGallery\PhotoGallery.csproj", "{82E6EF46-C85C-4389-A8C7-618D2F9A9277}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1C577DFB-4457-44D6-835F-EBB1501383A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C577DFB-4457-44D6-835F-EBB1501383A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1C577DFB-4457-44D6-835F-EBB1501383A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1C577DFB-4457-44D6-835F-EBB1501383A0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BFBFB25E-53B6-42AF-8C73-7135B22E4D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BFBFB25E-53B6-42AF-8C73-7135B22E4D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BFBFB25E-53B6-42AF-8C73-7135B22E4D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BFBFB25E-53B6-42AF-8C73-7135B22E4D72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82E6EF46-C85C-4389-A8C7-618D2F9A9277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E6EF46-C85C-4389-A8C7-618D2F9A9277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E6EF46-C85C-4389-A8C7-618D2F9A9277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E6EF46-C85C-4389-A8C7-618D2F9A9277}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

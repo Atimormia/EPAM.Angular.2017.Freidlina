@@ -13,7 +13,21 @@
                 </div>
             </slide>
         </carousel>
+        <div class="row-fluid">
+            <div class="span6">
+                <ul>
+                    <li data-ng-repeat="slide in slides">
+                        <button class="btn btn-mini" data-ng-class="{'btn-info': !slide.active, 'btn-success': slide.active}" data-ng-disabled="slide.active" data-ng-click="slide.active = true">select</button>
+                        {{slide.Title}}
+                    </li>
+                </ul>
+            </div>
+            <div class="span6">
+                Interval, in milliseconds:
+                <input type="number" data-ng-model="myInterval">
+                <br />
+                Enter a negative number to stop the interval.
+            </div>
+        </div>
     </div>
 </div>
-
-<script src="~/AppScripts/carousel.js"></script>

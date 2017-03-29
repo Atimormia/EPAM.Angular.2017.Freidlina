@@ -1,6 +1,6 @@
 ﻿//Created by: http://techbrij.com
 
-angular.module('myModule', ['ui.bootstrap']);
+var app = angular.module('myModule', ['ui.bootstrap']);
 function myController($scope,$http) {
     $scope.myInterval = 5000;
     $scope.slides = [];
